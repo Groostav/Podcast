@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -90,10 +91,7 @@ namespace Podcast
             }
         }
 
-        private class DumbClass
-        {
-            public string field { get; set; }
-        }
+
 
         private async Task<IEnumerable<ItunesPodcastDescriptorJsonSurrogate.Result>> pollItunesWithNewQuery(string queryText)
         {
@@ -122,6 +120,10 @@ namespace Podcast
             }
         }
 
+        private void UIElement_OnTapped(object sender, TappedRoutedEventArgs e)
+        {
+             
+        }
     }
 
 }
