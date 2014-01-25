@@ -1,4 +1,5 @@
-﻿using System.Xml.Serialization;
+﻿using System;
+using System.Xml.Serialization;
 
 namespace Podcast.Common
 {
@@ -45,8 +46,45 @@ namespace Podcast.Common
 
         /// <remarks/>
         [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class rssChannel
+        public partial class rssChannel : IEquatable<rssChannel>
         {
+
+            #region equality nonsense
+
+            public bool Equals(rssChannel other)
+            {
+                if (ReferenceEquals(null, other)) return false;
+                if (ReferenceEquals(this, other)) return true;
+                return string.Equals(titleField, other.titleField) && string.Equals(linkField, other.linkField);
+            }
+
+            public override bool Equals(object obj)
+            {
+                if (ReferenceEquals(null, obj)) return false;
+                if (ReferenceEquals(this, obj)) return true;
+                if (obj.GetType() != this.GetType()) return false;
+                return Equals((rssChannel) obj);
+            }
+
+            public override int GetHashCode()
+            {
+                unchecked
+                {
+                    return ((titleField != null ? titleField.GetHashCode() : 0)*397) ^ (linkField != null ? linkField.GetHashCode() : 0);
+                }
+            }
+
+            public static bool operator ==(rssChannel left, rssChannel right)
+            {
+                return Equals(left, right);
+            }
+
+            public static bool operator !=(rssChannel left, rssChannel right)
+            {
+                return !Equals(left, right);
+            }
+
+            #endregion
 
             private string titleField;
 

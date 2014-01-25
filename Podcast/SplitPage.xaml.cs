@@ -81,9 +81,9 @@ namespace Podcast
         /// session.  The state will be null the first time a page is visited.</param>
         private async void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
-            var group = await SampleDataSource.GetGroupAsync((String)e.NavigationParameter);
-            this.DefaultViewModel["Group"] = group;
-            this.DefaultViewModel["Items"] = group.Items;
+            var feed = ((PodcastSurrogate.rss) e.NavigationParameter);
+            this.DefaultViewModel["Group"] = feed;
+            this.DefaultViewModel["Items"] = feed.channel.item;
 
             if (e.PageState == null)
             {
@@ -121,8 +121,8 @@ namespace Podcast
         {
             if (this.itemsViewSource.View != null)
             {
-                var selectedItem = (Data.SampleDataItem)this.itemsViewSource.View.CurrentItem;
-                if (selectedItem != null) e.PageState["SelectedItem"] = selectedItem.UniqueId;
+                var selectedItem = (PodcastSurrogate.rss) this.itemsViewSource.View.CurrentItem;
+                if (selectedItem != null) e.PageState["SelectedItem"] = selectedItem;
             }
         }
 
