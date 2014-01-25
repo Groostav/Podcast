@@ -1,4 +1,5 @@
-﻿using Podcast.Common;
+﻿using Windows.Media;
+using Podcast.Common;
 using Podcast.Data;
 using System;
 using System.Collections.Generic;
@@ -64,8 +65,7 @@ namespace Podcast
             // to change from showing two panes to showing a single pane
             Window.Current.SizeChanged += Window_SizeChanged;
             this.InvalidateVisualState();
-
-
+            this.InitializeTransportControls();
         }
 
         /// <summary>
@@ -82,7 +82,7 @@ namespace Podcast
         private async void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
             var feed = ((PodcastSurrogate.rss) e.NavigationParameter);
-            this.DefaultViewModel["Group"] = feed;
+            this.DefaultViewModel["Group"] = feed.channel;
             this.DefaultViewModel["Items"] = feed.channel.item;
 
             if (e.PageState == null)
@@ -121,7 +121,7 @@ namespace Podcast
         {
             if (this.itemsViewSource.View != null)
             {
-                var selectedItem = (PodcastSurrogate.rss) this.itemsViewSource.View.CurrentItem;
+                var selectedItem = (PodcastSurrogate.rssChannelItem) this.itemsViewSource.View.CurrentItem;
                 if (selectedItem != null) e.PageState["SelectedItem"] = selectedItem;
             }
         }
@@ -248,5 +248,75 @@ namespace Podcast
         }
 
         #endregion
+
+
+        SystemMediaTransportControls systemControls;
+        private MediaElement musicPlayer;
+
+        void InitializeTransportControls()
+        {
+            // Hook up app to system transport controls.
+            systemControls = SystemMediaTransportControls.GetForCurrentView();
+            systemControls.ButtonPressed += SystemControls_ButtonPressed;
+
+            // Register to handle the following system transpot control buttons.
+            systemControls.IsPlayEnabled = true;
+            systemControls.IsPauseEnabled = true;
+        }
+
+        void SystemControls_ButtonPressed(SystemMediaTransportControls sender,
+                                          SystemMediaTransportControlsButtonPressedEventArgs args)
+        {
+            switch (args.Button)
+            {
+                case SystemMediaTransportControlsButton.Play:
+                    PlayMedia();
+                    break;
+                case SystemMediaTransportControlsButton.Pause:
+                    PauseMedia();
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        async void PlayMedia()
+        {
+            await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+            {
+                musicPlayer.Play();
+            });
+        }
+
+        async void PauseMedia()
+        {
+            await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+            {
+                musicPlayer.Pause();
+            });
+        }
+
+        private void MusicPlayer_CurrentStateChanged(object sender, RoutedEventArgs e)
+        {
+            musicPlayer = (MediaElement) sender;
+
+            switch (musicPlayer.CurrentState)
+            {
+                case MediaElementState.Playing:
+                    systemControls.PlaybackStatus = MediaPlaybackStatus.Playing;
+                    break;
+                case MediaElementState.Paused:
+                    systemControls.PlaybackStatus = MediaPlaybackStatus.Paused;
+                    break;
+                case MediaElementState.Stopped:
+                    systemControls.PlaybackStatus = MediaPlaybackStatus.Stopped;
+                    break;
+                case MediaElementState.Closed:
+                    systemControls.PlaybackStatus = MediaPlaybackStatus.Closed;
+                    break;
+                default:
+                    break;
+            }
+        }
     }
 }

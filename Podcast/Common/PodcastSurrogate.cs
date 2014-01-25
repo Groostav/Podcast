@@ -48,7 +48,6 @@ namespace Podcast.Common
         [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
         public partial class rssChannel : IEquatable<rssChannel>
         {
-
             #region equality nonsense
 
             public bool Equals(rssChannel other)
@@ -87,59 +86,32 @@ namespace Podcast.Common
             #endregion
 
             private string titleField;
-
             private string linkField;
-
             private string generatorField;
-
             private string docsField;
-
             private string languageField;
-
             private string copyrightField;
-
             private string licenseField;
-
             private string managingEditorField;
-
             private string webMasterField;
-
             private ushort ttlField;
-
             private string updatePeriodField;
-
             private byte updateFrequencyField;
-
             private string lastBuildDateField;
-
             private string pubDateField;
-
             private string[] categoryField;
-
             private rssChannelImage imageField;
-
             private link link1Field;
-
             private string authorField;
-
             private string subtitleField;
-
             private string summaryField;
-
             private string descriptionField;
-
             private string keywordsField;
-
             private string explicitField;
-
             private owner ownerField;
-
             private string blockField;
-
             private image image1Field;
-
             private category[] category1Field;
-
             private rssChannelItem[] itemField;
 
             /// <remarks/>
@@ -207,7 +179,7 @@ namespace Podcast.Common
                 }
             }
 
-            /// <remarks/>
+//            /// <remarks/>
             public string copyright
             {
                 get

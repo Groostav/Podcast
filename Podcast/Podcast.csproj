@@ -108,10 +108,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BlankPage1.xaml.cs">
-      <DependentUpon>BlankPage1.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Common\PodcastSurrogate.cs" />
+    <Compile Include="Converters\HTMLToTextConverter.cs" />
+    <Compile Include="Converters\channelItemGuidToURIConverter.cs" />
     <Compile Include="DataModel\User.cs" />
     <Compile Include="DataModel\DataPoller.cs" />
     <Compile Include="ItemsPage.xaml.cs">
@@ -154,10 +153,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="BlankPage1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="ItemsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
