@@ -23,7 +23,7 @@ namespace Podcast
 
         private static void refreshFeeds(User user)
         {
-            foreach (PodcastSurrogate.rss rssFeed in user.Subscriptions)
+            foreach (PodcastRssFeedXmlSurrogate.rss rssFeed in user.Subscriptions)
             {
                 HttpClient client = new HttpClient();
                 var response = client.GetAsync(new Uri(rssFeed.channel.link));

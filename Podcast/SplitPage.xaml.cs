@@ -1,6 +1,5 @@
 ﻿using Windows.Media;
 using Podcast.Common;
-using Podcast.Data;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -81,7 +80,7 @@ namespace Podcast
         /// session.  The state will be null the first time a page is visited.</param>
         private async void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
-            var feed = ((PodcastSurrogate.rss) e.NavigationParameter);
+            var feed = ((PodcastRssFeedXmlSurrogate.rss) e.NavigationParameter);
             this.DefaultViewModel["Group"] = feed.channel;
             this.DefaultViewModel["Items"] = feed.channel.item;
 
@@ -100,8 +99,7 @@ namespace Podcast
                 // Restore the previously saved state associated with this page
                 if (e.PageState.ContainsKey("SelectedItem") && this.itemsViewSource.View != null)
                 {
-                    var selectedItem = await SampleDataSource.GetItemAsync((String)e.PageState["SelectedItem"]);
-                    this.itemsViewSource.View.MoveCurrentTo(selectedItem);
+
                 }
             }
         }
@@ -121,7 +119,7 @@ namespace Podcast
         {
             if (this.itemsViewSource.View != null)
             {
-                var selectedItem = (PodcastSurrogate.rssChannelItem) this.itemsViewSource.View.CurrentItem;
+                var selectedItem = (PodcastRssFeedXmlSurrogate.rssChannelItem) this.itemsViewSource.View.CurrentItem;
                 if (selectedItem != null) e.PageState["SelectedItem"] = selectedItem;
             }
         }

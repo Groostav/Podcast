@@ -15,7 +15,7 @@ namespace Podcast
     {
         private static User _user;
 
-        public async static Task<IEnumerable<PodcastSurrogate.rss>> GetSubscriptions()
+        public async static Task<IEnumerable<PodcastRssFeedXmlSurrogate.rss>> GetSubscriptions()
         {
             var user = await GetUser();
             return user.Subscriptions;

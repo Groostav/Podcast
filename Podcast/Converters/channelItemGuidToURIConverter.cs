@@ -9,9 +9,9 @@ namespace Podcast.Converters
     {
         public object Convert(object value, Type targetType, object parameter, string language)
         {
-            if (value is PodcastSurrogate.rssChannelItemGuid)
+            if (value is PodcastRssFeedXmlSurrogate.rssChannelItemGuid)
             {
-                var guid = value as PodcastSurrogate.rssChannelItemGuid;
+                var guid = value as PodcastRssFeedXmlSurrogate.rssChannelItemGuid;
                 return new Uri(guid.Value);
             }
             else

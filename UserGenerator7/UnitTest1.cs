@@ -27,7 +27,7 @@ namespace UserGenerator7
             {
                 var inFile = await StorageFile.GetFileFromApplicationUriAsync(new Uri("ms-appx:///Assets/sn.xml"));
                 var inStream = await inFile.OpenAsync(FileAccessMode.Read);
-                var rssFeed = (PodcastSurrogate.rss)PodcastSurrogate.rss.Serializer.Deserialize(inStream.AsStream());
+                var rssFeed = (PodcastRssFeedXmlSurrogate.rss)PodcastRssFeedXmlSurrogate.rss.Serializer.Deserialize(inStream.AsStream());
 
                 var user = new User();
                 user.Subscriptions.Add(rssFeed);

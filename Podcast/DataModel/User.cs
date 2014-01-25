@@ -10,9 +10,9 @@ namespace Podcast.DataModel
 
         public User()
         {
-            Subscriptions = new List<PodcastSurrogate.rss>();
+            Subscriptions = new List<PodcastRssFeedXmlSurrogate.rss>();
         }
 
-        public List<PodcastSurrogate.rss> Subscriptions { get; set; } 
+        public List<PodcastRssFeedXmlSurrogate.rss> Subscriptions { get; set; } 
     }
 }
