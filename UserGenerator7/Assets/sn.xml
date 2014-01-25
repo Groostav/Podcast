@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" version="2.0">
+   <channel>
+      <title>Security Now (MP3)</title>
+      <link>http://twit.tv/sn</link>
+      <generator>TWiT Feed Generator v2.3</generator>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <language>en-US</language>
+      <copyright>This work is licensed under a Creative Commons License - Attribution-NonCommercial-ShareAlike - http://creativecommons.org/licenses/by-nc-sa/3.0/</copyright>
+      <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/3.0/</creativeCommons:license>
+      <managingEditor>leo@twit.tv (Leo Laporte)</managingEditor>
+      <webMaster>leo@twit.tv (Leo Laporte)</webMaster>
+      <ttl>720</ttl>
+      <sy:updatePeriod>weekly</sy:updatePeriod>
+      <sy:updateFrequency>1</sy:updateFrequency>
+      <lastBuildDate>Tue, 21 Jan 2014 19:48:21 -0800</lastBuildDate>
+      <pubDate>Tue, 21 Jan 2014 19:48:21 -0800</pubDate>
+      <category>Technology</category>
+      <category>Security</category>
+      <image>
+         <title>Security Now (MP3)</title>
+         <url>http://feeds.twit.tv/podcasts/coverart/sn144audio.jpg</url>
+         <link>http://twit.tv/sn</link>
+         <width>144</width>
+         <height>144</height>
+      </image>
+      <atom:link href="http://feeds.twit.tv/sn.xml" type="application/rss+xml" rel="self" />
+      <itunes:author>TWiT</itunes:author>
+      <itunes:subtitle>Steve Gibson, the man who coined the term spyware and created the first anti-spyware program, creator of Spinrite and ShieldsUP, discusses the hot topics in security today with Leo Laporte.</itunes:subtitle>
+      <itunes:summary>Steve Gibson, the man who coined the term spyware and created the first anti-spyware program, creator of Spinrite and ShieldsUP, discusses the hot topics in security today with Leo Laporte. Winner of the 2009 and 2007 people's choice award for best Technology/Science podcast.
+Records live at http://live.twit.tv/ every Tuesday at 1:00pm PT/4:00pm ET.</itunes:summary>
+      <description>Steve Gibson, the man who coined the term spyware and created the first anti-spyware program, creator of Spinrite and ShieldsUP, discusses the hot topics in security today with Leo Laporte. Winner of the 2009 and 2007 people's choice award for best Technology/Science podcast.
+Records live at http://live.twit.tv/ every Tuesday at 1:00pm PT/4:00pm ET.</description>
+      <itunes:keywords>Steve Gibson, Leo Laporte, security, spyware, malware, hacking, cyber crime, encryption</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:owner>
+         <itunes:name>Leo Laporte</itunes:name>
+         <itunes:email>leo@twit.tv</itunes:email>
+      </itunes:owner>
+      <itunes:block>no</itunes:block>
+      <itunes:image href="http://feeds.twit.tv/podcasts/coverart/sn1400audio.jpg" />
+      <itunes:category text="Technology">
+         <itunes:category text="Tech News" />
+      </itunes:category>
+      <itunes:category text="Technology">
+         <itunes:category text="Software How-To" />
+      </itunes:category>
+      <item>
+         <title>SN 439: Your Questions, Steve's Answers 181</title>
+         <pubDate>Tue, 21 Jan 2014 18:23:05 -0800</pubDate>
+         <comments>http://twit.tv/sn/439</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Security</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/sn144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Security Now" alt="Security Now"/></p><p><b>Hosts:</b> <a href="http://grc.com/">Steve Gibson</a> with <a href="http://leoville.com/">Leo Laporte</a></p>
+ 
+<p>Steve and Leo discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  </p>
+ 
+<p>They tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/sn">twit.tv/sn</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/Security_Now_439">show notes</a>.</p>
+ 
+<p>You can submit a question to Security Now! at the <a href="http://www.grc.com/feedback.htm">GRC Feedback Page</a>.</p>
+ 
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="http://grc.com/securitynow.htm">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="http://spinrite.info/">Spinrite 6</a>.</p>
+ 
+<p>Bandwidth for Security Now is provided by <a href="http://www.cachefly.com/">Cachefly</a>.</p>
+ 
+<p><b>Running time:</b> 1:51:50</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0439/sn0439.mp3</guid>
+         <itunes:subtitle>Steve and Leo discuss the week's major security events and discuss questions and comments from listeners of previous episodes.</itunes:subtitle>
+         <itunes:summary>Hosts: Steve Gibson with Leo Laporte
+ 
+Steve and Leo discuss the week's major security events and discuss questions and comments from listeners of previous episodes.  
+ 
+They tie up loose ends, explore a wide range of topics that are too small to fill their own episode, clarify any confusion from previous installments, and present real world 'application notes' for any of the security technologies and issues we have previously discussed.
+ 
+Download or subscribe to this show at twit.tv/sn.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+You can submit a question to Security Now! at the GRC Feedback Page.
+ 
+For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: grc.com, also the home of the best disk maintenance and recovery utility ever written Spinrite 6.
+ 
+Bandwidth for Security Now is provided by Cachefly.
+ 
+Running time: 1:51:50</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:51:50</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0439/sn0439.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0439/sn0439.mp3" length="53900185" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0439/sn0439.mp3" fileSize="53900185" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">How To</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:category scheme="tivogenres">Crime</media:category>
+            <media:credit role="actor">Steve Gibson</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="producer">Steve Gibson</media:credit>
+            <media:credit role="director">Leo Laporte</media:credit>
+            <media:credit role="editor">Josh Windisch</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>SN 438: NSA's ANT</title>
+         <pubDate>Tue, 14 Jan 2014 20:19:33 -0800</pubDate>
+         <comments>http://twit.tv/sn/438</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Security</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/sn144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Security Now" alt="Security Now"/></p><p><b>Hosts:</b> <a href="http://grc.com/">Steve Gibson</a> with <a href="http://leoville.com/">Leo Laporte</a></p>
+ 
+<p>As promised last week, after catching up with another crazily-busy week of interesting and fun security news, we take a deep dive into the amazing NSA ANT documentation to learn what we can of the NSA's field capabilities.  What we learn is chilling and interesting, though not entirely surprising.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/sn">twit.tv/sn</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/Security_Now_438">show notes</a>.</p>
+ 
+<p>You can submit a question to Security Now! at the <a href="http://www.grc.com/feedback.htm">GRC Feedback Page</a>.</p>
+ 
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="http://grc.com/securitynow.htm">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="http://spinrite.info/">Spinrite 6</a>.</p>
+ 
+<p>Bandwidth for Security Now is provided by <a href="http://www.cachefly.com/">Cachefly</a>.</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>
+ 
+<p><b>Running time:</b> 2:05:01</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0438/sn0438.mp3</guid>
+         <itunes:subtitle>After catching up with another busy week of security news, we dive into the amazing NSA ANT documentation to learn about the NSA's field capabilities.</itunes:subtitle>
+         <itunes:summary>Hosts: Steve Gibson with Leo Laporte
+ 
+As promised last week, after catching up with another crazily-busy week of interesting and fun security news, we take a deep dive into the amazing NSA ANT documentation to learn what we can of the NSA's field capabilities.  What we learn is chilling and interesting, though not entirely surprising.
+ 
+Download or subscribe to this show at twit.tv/sn.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+You can submit a question to Security Now! at the GRC Feedback Page.
+ 
+For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: grc.com, also the home of the best disk maintenance and recovery utility ever written Spinrite 6.
+ 
+Bandwidth for Security Now is provided by Cachefly.
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.
+ 
+Running time: 2:05:01</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>2:05:01</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0438/sn0438.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0438/sn0438.mp3" length="60223698" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0438/sn0438.mp3" fileSize="60223698" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">How To</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:category scheme="tivogenres">Crime</media:category>
+            <media:credit role="actor">Steve Gibson</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="producer">Steve Gibson</media:credit>
+            <media:credit role="director">Leo Laporte</media:credit>
+            <media:credit role="editor">Jason Howell</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>SN 437: New Year's News Catchup</title>
+         <pubDate>Tue, 7 Jan 2014 18:40:23 -0800</pubDate>
+         <comments>http://twit.tv/sn/437</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Security</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/sn144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Security Now" alt="Security Now"/></p><p><b>Hosts:</b> <a href="http://grc.com/">Steve Gibson</a> with <a href="http://leoville.com/">Leo Laporte</a></p>
+ 
+<p>We talk about the NSA and the ANT protocols, more CryptoLocker news, the SnapChat leak of names and phone numbers, and more.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/sn">twit.tv/sn</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/Security_Now_437">show notes</a>.</p>
+ 
+<p>You can submit a question to Security Now! at the <a href="http://www.grc.com/feedback.htm">GRC Feedback Page</a>.</p>
+ 
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="http://grc.com/securitynow.htm">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="http://spinrite.info/">Spinrite 6</a>.</p>
+ 
+<p>Bandwidth for Security Now is provided by <a href="http://www.cachefly.com/">Cachefly</a>.</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>
+ 
+<p><b>Running time:</b> 1:52:38</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0437/sn0437.mp3</guid>
+         <itunes:subtitle>We talk about the NSA and ANT protocols, more CryptoLocker news, the SnapChat leak of names and phone numbers, and more.</itunes:subtitle>
+         <itunes:summary>Hosts: Steve Gibson with Leo Laporte
+ 
+We talk about the NSA and the ANT protocols, more CryptoLocker news, the SnapChat leak of names and phone numbers, and more.
+ 
+Download or subscribe to this show at twit.tv/sn.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+You can submit a question to Security Now! at the GRC Feedback Page.
+ 
+For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: grc.com, also the home of the best disk maintenance and recovery utility ever written Spinrite 6.
+ 
+Bandwidth for Security Now is provided by Cachefly.
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.
+ 
+Running time: 1:52:38</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:52:38</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0437/sn0437.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0437/sn0437.mp3" length="54278856" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0437/sn0437.mp3" fileSize="54278856" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">How To</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:category scheme="tivogenres">Crime</media:category>
+            <media:credit role="actor">Steve Gibson</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="producer">Steve Gibson</media:credit>
+            <media:credit role="director">Leo Laporte</media:credit>
+            <media:credit role="editor">Jason Howell</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>SN 436: Time Travelling with Steve</title>
+         <pubDate>Sat, 21 Dec 2013 11:05:10 -0800</pubDate>
+         <comments>http://twit.tv/sn/436</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Security</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/sn144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Security Now" alt="Security Now"/></p><p><b>Hosts:</b> <a href="http://grc.com/">Steve Gibson</a> with <a href="http://leoville.com/">Leo Laporte</a></p>
+ 
+<p>Steve opens up his archives to show some of his first appearances with Leo on the Screen Savers.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/sn">twit.tv/sn</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/Security_Now_436">show notes</a>.</p>
+ 
+<p>You can submit a question to Security Now! at the <a href="http://www.grc.com/feedback.htm">GRC Feedback Page</a>.</p>
+ 
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="http://grc.com/securitynow.htm">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="http://spinrite.info/">Spinrite 6</a>.</p>
+ 
+<p>Bandwidth for Security Now is provided by <a href="http://www.cachefly.com/">Cachefly</a>.</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>
+ 
+<p><b>Running time:</b> 1:05:43</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0436/sn0436.mp3</guid>
+         <itunes:subtitle>Steve opens up his archives to show some of his first appearances with Leo on the Screen Savers.</itunes:subtitle>
+         <itunes:summary>Hosts: Steve Gibson with Leo Laporte
+ 
+Steve opens up his archives to show some of his first appearances with Leo on the Screen Savers.
+ 
+Download or subscribe to this show at twit.tv/sn.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+You can submit a question to Security Now! at the GRC Feedback Page.
+ 
+For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: grc.com, also the home of the best disk maintenance and recovery utility ever written Spinrite 6.
+ 
+Bandwidth for Security Now is provided by Cachefly.
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.
+ 
+Running time: 1:05:43</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:05:43</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0436/sn0436.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0436/sn0436.mp3" length="31758588" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0436/sn0436.mp3" fileSize="31758588" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">How To</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:category scheme="tivogenres">Crime</media:category>
+            <media:credit role="actor">Steve Gibson</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="producer">Steve Gibson</media:credit>
+            <media:credit role="director">Leo Laporte</media:credit>
+            <media:credit role="editor">Jason Howell</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>SN 435: Your Questions, Steve's Answers #180</title>
+         <pubDate>Wed, 18 Dec 2013 15:16:19 -0800</pubDate>
+         <comments>http://twit.tv/sn/435</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Security</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/sn144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Security Now" alt="Security Now"/></p><p><b>Hosts:</b> <a href="http://grc.com/">Steve Gibson</a> with <a href="http://leoville.com/">Leo Laporte</a></p>
+ 
+<p>All things NSA, Acoustic Crypto Key leakage, FIDO Alliance and SQRL, your questions, and more.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/sn">twit.tv/sn</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/Security_Now_435">show notes</a>.</p>
+ 
+<p>You can submit a question to Security Now! at the <a href="http://www.grc.com/feedback.htm">GRC Feedback Page</a>.</p>
+ 
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="http://grc.com/securitynow.htm">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="http://spinrite.info/">Spinrite 6</a>.</p>
+ 
+<p>Bandwidth for Security Now is provided by <a href="http://www.cachefly.com/">Cachefly</a>.</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>
+ 
+<p><b>Running time:</b> 1:48:16</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0435/sn0435.mp3</guid>
+         <itunes:subtitle>All things NSA, Acoustic Crypto Key leakage, FIDO Alliance and SQRL, your questions, and more.</itunes:subtitle>
+         <itunes:summary>Hosts: Steve Gibson with Leo Laporte
+ 
+All things NSA, Acoustic Crypto Key leakage, FIDO Alliance and SQRL, your questions, and more.
+ 
+Download or subscribe to this show at twit.tv/sn.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+You can submit a question to Security Now! at the GRC Feedback Page.
+ 
+For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: grc.com, also the home of the best disk maintenance and recovery utility ever written Spinrite 6.
+ 
+Bandwidth for Security Now is provided by Cachefly.
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.
+ 
+Running time: 1:48:16</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:48:16</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0435/sn0435.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0435/sn0435.mp3" length="52181954" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0435/sn0435.mp3" fileSize="52181954" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">How To</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:category scheme="tivogenres">Crime</media:category>
+            <media:credit role="actor">Steve Gibson</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="producer">Steve Gibson</media:credit>
+            <media:credit role="director">Leo Laporte</media:credit>
+            <media:credit role="editor">Jason Howell</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>SN 434: Your Questions, Steve's Answers #179</title>
+         <pubDate>Wed, 11 Dec 2013 17:48:49 -0800</pubDate>
+         <comments>http://twit.tv/sn/434</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Security</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/sn144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Security Now" alt="Security Now"/></p><p><b>Hosts:</b> <a href="http://grc.com/">Steve Gibson</a> with <a href="http://leoville.com/">Leo Laporte</a></p>
+ 
+<p>Patch Tuesday, Firefox 26, NSA and Google cookies, your questions, and more.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/sn">twit.tv/sn</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/Security_Now_434">show notes</a>.</p>
+ 
+<p>You can submit a question to Security Now! at the <a href="http://www.grc.com/feedback.htm">GRC Feedback Page</a>.</p>
+ 
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="http://grc.com/securitynow.htm">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="http://spinrite.info/">Spinrite 6</a>.</p>
+ 
+<p>Bandwidth for Security Now is provided by <a href="http://www.cachefly.com/">Cachefly</a>.</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>
+ 
+<p><b>Running time:</b> 2:03:38</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0434/sn0434.mp3</guid>
+         <itunes:subtitle>Patch Tuesday, Firefox 26, NSA and Google cookies, your questions, and more.</itunes:subtitle>
+         <itunes:summary>Hosts: Steve Gibson with Leo Laporte
+ 
+Patch Tuesday, Firefox 26, NSA and Google cookies, your questions, and more.
+ 
+Download or subscribe to this show at twit.tv/sn.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+You can submit a question to Security Now! at the GRC Feedback Page.
+ 
+For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: grc.com, also the home of the best disk maintenance and recovery utility ever written Spinrite 6.
+ 
+Bandwidth for Security Now is provided by Cachefly.
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.
+ 
+Running time: 2:03:38</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>2:03:38</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0434/sn0434.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0434/sn0434.mp3" length="59561233" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0434/sn0434.mp3" fileSize="59561233" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">How To</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:category scheme="tivogenres">Crime</media:category>
+            <media:credit role="actor">Steve Gibson</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="producer">Steve Gibson</media:credit>
+            <media:credit role="director">Leo Laporte</media:credit>
+            <media:credit role="editor">Jason Howell</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>SN 433: Breaking SSL</title>
+         <pubDate>Wed, 4 Dec 2013 15:59:27 -0800</pubDate>
+         <comments>http://twit.tv/sn/433</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Security</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/sn144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Security Now" alt="Security Now"/></p><p><b>Hosts:</b> <a href="http://grc.com/">Steve Gibson</a> with <a href="http://leoville.com/">Leo Laporte</a></p>
+ 
+<p>A closer look at "BULLRUN", the NSA's code name for their Encryption Cracking initiative, TL Warp Drive, and more.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/sn">twit.tv/sn</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/Security_Now_433">show notes</a>.</p>
+ 
+<p>You can submit a question to Security Now! at the <a href="http://www.grc.com/feedback.htm">GRC Feedback Page</a>.</p>
+ 
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="http://grc.com/securitynow.htm">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="http://spinrite.info/">Spinrite 6</a>.</p>
+ 
+<p>Bandwidth for Security Now is provided by <a href="http://www.cachefly.com/">Cachefly</a>.</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>
+ 
+<p><b>Running time:</b> 1:34:25</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0433/sn0433.mp3</guid>
+         <itunes:subtitle>A closer look at "BULLRUN", the NSA's code name for their Encryption Cracking initiative, TL Warp Drive, and more.</itunes:subtitle>
+         <itunes:summary>Hosts: Steve Gibson with Leo Laporte
+ 
+A closer look at "BULLRUN", the NSA's code name for their Encryption Cracking initiative, TL Warp Drive, and more.
+ 
+Download or subscribe to this show at twit.tv/sn.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+You can submit a question to Security Now! at the GRC Feedback Page.
+ 
+For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: grc.com, also the home of the best disk maintenance and recovery utility ever written Spinrite 6.
+ 
+Bandwidth for Security Now is provided by Cachefly.
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.
+ 
+Running time: 1:34:25</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:34:25</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0433/sn0433.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0433/sn0433.mp3" length="53308563" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0433/sn0433.mp3" fileSize="53308563" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">How To</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:category scheme="tivogenres">Crime</media:category>
+            <media:credit role="actor">Steve Gibson</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="producer">Steve Gibson</media:credit>
+            <media:credit role="director">Leo Laporte</media:credit>
+            <media:credit role="editor">Jason Howell</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>SN 432: Coin, Patent Trolls, and More</title>
+         <pubDate>Wed, 27 Nov 2013 15:55:29 -0800</pubDate>
+         <comments>http://twit.tv/sn/432</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Security</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/sn144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Security Now" alt="Security Now"/></p><p><b>Hosts:</b> <a href="http://grc.com/">Steve Gibson</a> with <a href="http://leoville.com/">Leo Laporte</a></p>
+ 
+<p>Following another week overfilled with interesting security-related news, Steve and Leo spend an hour and a half diving deeply into an updated (and likely very close to correct) understanding of the COIN payment card, news on the CryptoLocker front, a close look at a patent troll case that has so far done the wrong way, and much more.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/sn">twit.tv/sn</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/Security_Now_432">show notes</a>.</p>
+ 
+<p>You can submit a question to Security Now! at the <a href="http://www.grc.com/feedback.htm">GRC Feedback Page</a>.</p>
+ 
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="http://grc.com/securitynow.htm">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="http://spinrite.info/">Spinrite 6</a>.</p>
+ 
+<p>Bandwidth for Security Now is provided by <a href="http://www.cachefly.com/">Cachefly</a>.</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>
+ 
+<p><b>Running time:</b> 1:34:25</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0432/sn0432.mp3</guid>
+         <itunes:subtitle>More about Coin, an update on CryptoLocker, a look at a high profile patent troll case, and more.</itunes:subtitle>
+         <itunes:summary>Hosts: Steve Gibson with Leo Laporte
+ 
+Following another week overfilled with interesting security-related news, Steve and Leo spend an hour and a half diving deeply into an updated (and likely very close to correct) understanding of the COIN payment card, news on the CryptoLocker front, a close look at a patent troll case that has so far done the wrong way, and much more.
+ 
+Download or subscribe to this show at twit.tv/sn.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+You can submit a question to Security Now! at the GRC Feedback Page.
+ 
+For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: grc.com, also the home of the best disk maintenance and recovery utility ever written Spinrite 6.
+ 
+Bandwidth for Security Now is provided by Cachefly.
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.
+ 
+Running time: 1:34:25</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:34:25</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0432/sn0432.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0432/sn0432.mp3" length="45534732" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0432/sn0432.mp3" fileSize="45534732" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">How To</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:category scheme="tivogenres">Crime</media:category>
+            <media:credit role="actor">Steve Gibson</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="producer">Steve Gibson</media:credit>
+            <media:credit role="director">Leo Laporte</media:credit>
+            <media:credit role="editor">Jason Howell</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>SN 431: What is RADIUS?</title>
+         <pubDate>Wed, 20 Nov 2013 15:37:37 -0800</pubDate>
+         <comments>http://twit.tv/sn/431</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Security</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/sn144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Security Now" alt="Security Now"/></p><p><b>Hosts:</b> <a href="http://grc.com">Steve Gibson</a> with <a href="http://leoville.com">Leo Laporte</a></p>
+ 
+<p>Security news, the coin wallet idea, why does proXPN allow only twelve characters, Steve explains RADIUS, and more.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/sn">twit.tv/sn</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/Security_Now_431">show notes</a>.</p>
+ 
+<p>You can submit a question to Security Now! at the <a href="http://www.grc.com/feedback.htm">GRC Feedback Page</a>.</p>
+ 
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="http://grc.com/securitynow.htm">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="http://spinrite.info">Spinrite 6</a>.</p>
+ 
+<p>Bandwidth for Security Now is provided by <a href="http://www.cachefly.com">Cachefly</a>.</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>
+ 
+<p><b>Running time:</b> 1:58:57</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0431/sn0431.mp3</guid>
+         <itunes:subtitle>Security news, the coin wallet idea, why does proXPN allow only twelve characters, Steve explains RADIUS, and more.</itunes:subtitle>
+         <itunes:summary>Hosts: Steve Gibson with Leo Laporte
+ 
+Security news, the coin wallet idea, why does proXPN allow only twelve characters, Steve explains RADIUS, and more.
+ 
+Download or subscribe to this show at twit.tv/sn.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+You can submit a question to Security Now! at the GRC Feedback Page.
+ 
+For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: grc.com, also the home of the best disk maintenance and recovery utility ever written Spinrite 6.
+ 
+Bandwidth for Security Now is provided by Cachefly.
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.
+ 
+Running time: 1:58:57</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:58:57</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0431/sn0431.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0431/sn0431.mp3" length="57309896" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0431/sn0431.mp3" fileSize="57309896" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">How To</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:category scheme="tivogenres">Crime</media:category>
+            <media:credit role="actor">Steve Gibson</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="producer">Steve Gibson</media:credit>
+            <media:credit role="director">Leo Laporte</media:credit>
+            <media:credit role="editor">Jason Howell</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>SN 430: Your Questions, Steve's Answers #178</title>
+         <pubDate>Wed, 13 Nov 2013 15:54:37 -0800</pubDate>
+         <comments>http://twit.tv/sn/430</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Security</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/sn144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Security Now" alt="Security Now"/></p><p><b>Hosts:</b> <a href="http://grc.com">Steve Gibson</a> with <a href="http://leoville.com">Leo Laporte</a></p>
+ 
+<p>Microsoft TIFF 0-day flaw, lots of Bitcoin happenings, your questions, and more.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/sn">twit.tv/sn</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/Security_Now_430">show notes</a>.</p>
+ 
+<p>You can submit a question to Security Now! at the <a href="http://www.grc.com/feedback.htm">GRC Feedback Page</a>.</p>
+ 
+<p>For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: <a href="http://grc.com/securitynow.htm">grc.com</a>, also the home of the best disk maintenance and recovery utility ever written <a href="http://spinrite.info">Spinrite 6</a>.</p>
+ 
+<p>Bandwidth for Security Now is provided by <a href="http://www.cachefly.com">Cachefly</a>.</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>
+ 
+<p><b>Running time:</b> 1:50:57</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0430/sn0430.mp3</guid>
+         <itunes:subtitle>Microsoft TIFF 0-day flaw, lots of Bitcoin happenings, your questions, and more.</itunes:subtitle>
+         <itunes:summary>Hosts: Steve Gibson with Leo Laporte
+ 
+Microsoft TIFF 0-day flaw, lots of Bitcoin happenings, your questions, and more.
+ 
+Download or subscribe to this show at twit.tv/sn.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+You can submit a question to Security Now! at the GRC Feedback Page.
+ 
+For 16kbps versions, transcripts, and notes (including fixes), visit Steve's site: grc.com, also the home of the best disk maintenance and recovery utility ever written Spinrite 6.
+ 
+Bandwidth for Security Now is provided by Cachefly.
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.
+ 
+Running time: 1:50:57</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:50:57</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0430/sn0430.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0430/sn0430.mp3" length="53471776" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/sn/sn0430/sn0430.mp3" fileSize="53471776" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">How To</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:category scheme="tivogenres">Crime</media:category>
+            <media:credit role="actor">Steve Gibson</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="producer">Steve Gibson</media:credit>
+            <media:credit role="director">Leo Laporte</media:credit>
+            <media:credit role="editor">Jason Howell</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+   </channel>
+</rss>

@@ -4,20 +4,22 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{609C1E70-9AA2-4288-BDEE-5EEE72E3F413}</ProjectGuid>
-    <OutputType>appcontainerexe</OutputType>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{763408A6-7A33-42B6-81EA-520DAC1765C3}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Podcast</RootNamespace>
-    <AssemblyName>Podcast</AssemblyName>
+    <RootNamespace>UserGenerator7</RootNamespace>
+    <AssemblyName>UserGenerator7</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>Podcast_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>UserGenerator7_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxBundle>Never</AppxBundle>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -27,7 +29,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -101,83 +102,54 @@
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <AppXPackage>True</AppXPackage>
+    <AppxPackageIncludePrivateSymbols>true</AppxPackageIncludePrivateSymbols>
+  </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <!--A reference to the entire .Net Framework and Windows SDK are automatically included-->
+    <SDKReference Include="MSTestFramework, Version=11.0" />
+    <SDKReference Include="TestPlatform, Version=11.0" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="BlankPage1.xaml.cs">
-      <DependentUpon>BlankPage1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Common\PodcastSurrogate.cs" />
-    <Compile Include="DataModel\User.cs" />
-    <Compile Include="DataModel\DataPoller.cs" />
-    <Compile Include="ItemsPage.xaml.cs">
-      <DependentUpon>ItemsPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\Annotations.cs" />
-    <Compile Include="SplitPage.xaml.cs">
-      <DependentUpon>SplitPage.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DataModel\SampleDataSource.cs" />
-    <Compile Include="Common\RelayCommand.cs" />
-    <Compile Include="Common\ObservableDictionary.cs" />
-    <Compile Include="Common\NavigationHelper.cs" />
-    <Compile Include="Common\SuspensionManager.cs" />
-    <Compile Include="SubscriptionService.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="Common\ReadMe.txt" />
-    <None Include="Podcast_TemporaryKey.pfx" />
-    <Content Include="Assets\twig.xml">
+    <None Include="UserGenerator7_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\sn.xml" />
+    <Content Include="Images\UnitTestLogo.scale-100.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="DataModel\SampleData.json" />
+    <Content Include="Images\UnitTestSmallLogo.scale-100.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\UnitTestSplashScreen.scale-100.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\UnitTestStoreLogo.scale-100.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Logo.scale-100.png" />
-    <Content Include="Assets\SmallLogo.scale-100.png" />
-    <Content Include="Assets\SplashScreen.scale-100.png" />
-    <Content Include="Assets\StoreLogo.scale-100.png" />
-    <Content Include="Assets\LightGray.png" />
-    <Content Include="Assets\MediumGray.png" />
-    <Content Include="Assets\DarkGray.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
-    <Page Include="BlankPage1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ItemsPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="SplitPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
+    <ProjectReference Include="..\Podcast\Podcast.csproj">
+      <Project>{609C1E70-9AA2-4288-BDEE-5EEE72E3F413}</Project>
+      <Name>Podcast</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
-  </Target>
+  </Target>  
   <Target Name="AfterBuild">
   </Target>
   -->

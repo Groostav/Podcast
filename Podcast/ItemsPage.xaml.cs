@@ -1,7 +1,6 @@
 ﻿using Podcast.Common;
 using Podcast.Data;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -48,9 +47,10 @@ namespace Podcast
 
         public ItemsPage()
         {
+            this.InitializeComponent();
+
             DataPoller.refresh();
 
-            this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
         }
@@ -69,7 +69,7 @@ namespace Podcast
         private async void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
             // TODO: Create an appropriate data model for your problem domain to replace the sample data
-            var sampleDataGroups = await SampleDataSource.GetGroupsAsync();
+            var sampleDataGroups = await SubscriptionService.GetSubscriptions();
             this.DefaultViewModel["Items"] = sampleDataGroups;
         }
 

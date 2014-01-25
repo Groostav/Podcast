@@ -86,4 +86,15 @@
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
     </Grid>
+    
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Label="Refresh" Icon="Refresh"/>
+            <AppBarButton Label="Add" Icon="Add"/>
+            
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="Help" Icon="Help"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
 </Page>

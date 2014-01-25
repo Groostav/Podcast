@@ -1,4 +1,6 @@
-﻿namespace Podcast.Common
+﻿using System.Xml.Serialization;
+
+namespace Podcast.Common
 {
     public class PodcastSurrogate
     {
@@ -7,6 +9,7 @@
         [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
         public partial class rss
         {
+            public static readonly XmlSerializer Serializer = new XmlSerializer(typeof(rss));
 
             private rssChannel channelField;
 
