@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" 
+	 xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" 
+	 xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+	 xmlns:media="http://search.yahoo.com/mrss/" 
+	 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+	 version="2.0">
+	 
+   <channel>
+      <title>This Week in Google (MP3)</title>
+      <link>http://twit.tv/twig</link>
+      <generator>TWiT Feed Generator v2.3</generator>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <language>en-US</language>
+      <copyright>This work is licensed under a Creative Commons License - Attribution-NonCommercial-ShareAlike - http://creativecommons.org/licenses/by-nc-sa/3.0/</copyright>
+      <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/3.0/</creativeCommons:license>
+      <managingEditor>leo@twit.tv (Leo Laporte)</managingEditor>
+      <webMaster>leo@twit.tv (Leo Laporte)</webMaster>
+      <ttl>720</ttl>
+      <sy:updatePeriod>weekly</sy:updatePeriod>
+      <sy:updateFrequency>1</sy:updateFrequency>
+      <lastBuildDate>Wed, 22 Jan 2014 18:39:39 -0800</lastBuildDate>
+      <pubDate>Wed, 22 Jan 2014 18:39:39 -0800</pubDate>
+      <category>Technology</category>
+      <category>Google</category>
+      <category>YouTube</category>
+      <category>Android</category>
+      <image>
+         <title>This Week in Google (MP3)</title>
+         <url>http://feeds.twit.tv/podcasts/coverart/twig144audio.jpg</url>
+         <link>http://twit.tv/twig</link>
+         <width>144</width>
+         <height>144</height>
+      </image>
+      <atom:link href="http://feeds.twit.tv/twig.xml" type="application/rss+xml" rel="self" />
+      <itunes:author>TWiT</itunes:author>
+      <itunes:subtitle>Leo Laporte, Gina Trapani, Jeff Jarvis and their guests talk about the latest Google and cloud computing news.</itunes:subtitle>
+      <itunes:summary>Leo Laporte, Gina Trapani, Jeff Jarvis and their guests talk about the latest Google and cloud computing news.
+
+Records live at http://live.twit.tv/ every Wednesday at 1:00pm PT/4:00pm ET.</itunes:summary>
+      <description>Leo Laporte, Gina Trapani, Jeff Jarvis and their guests talk about the latest Google and cloud computing news.
+
+Records live at http://live.twit.tv/ every Wednesday at 1:00pm PT/4:00pm ET.</description>
+      <itunes:keywords>TWiT, Google, cloud computing, Jeff Jarvis, Gina Trapani, Leo Laporte</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:owner>
+         <itunes:name>Leo Laporte</itunes:name>
+         <itunes:email>leo@twit.tv</itunes:email>
+      </itunes:owner>
+      <itunes:block>no</itunes:block>
+      <itunes:image href="http://feeds.twit.tv/podcasts/coverart/twig1400audio.jpg" />
+      <itunes:category text="Technology">
+         <itunes:category text="Tech News" />
+      </itunes:category>
+      <itunes:category text="Technology">
+         <itunes:category text="Software How-To" />
+      </itunes:category>
+      <item>
+         <title>TWiG 233: Glass Goes to the Movies</title>
+         <pubDate>Wed, 22 Jan 2014 17:24:58 -0800</pubDate>
+         <comments>http://twit.tv/twig/233</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Google</category>
+         <category>YouTube</category>
+         <category>Android</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/twig144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="This Week in Google" alt="This Week in Google"/></p><p><strong>Hosts:</strong><a href="http://leoville.com/">Leo Laporte</a>,<a href="http://twitter.com/jeffjarvis">Jeff Jarvis</a> and <a href="http://smarterware.org/">Gina Trapani</a></p>
+ 
+<p><strong>Guest:</strong><a href="http://searchengineland.com/">Danny Sullivan</a></p>
+ 
+<p>Matt Cutts SEO signals, Google Glass best practices, why is Yahoo gaining traction, and more!</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/twig">twit.tv/twig</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/This_WEEK_in_GOOGLE_233">show notes</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><b>Running time:</b> 1:42:58</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0233/twig0233.mp3</guid>
+         <itunes:subtitle>Matt Cutts SEO signals, Google Glass best practices, why is Yahoo gaining traction, and more!</itunes:subtitle>
+         <itunes:summary>Hosts:Leo Laporte,Jeff Jarvis and Gina Trapani
+ 
+Guest:Danny Sullivan
+ 
+Matt Cutts SEO signals, Google Glass best practices, why is Yahoo gaining traction, and more!
+ 
+Download or subscribe to this show at twit.tv/twig.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 1:42:58</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:42:58</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0233/twig0233.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0233/twig0233.mp3" length="49664900" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0233/twig0233.mp3" fileSize="49664900" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:credit role="actor">Jeff Jarvis</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="actor">Gina Trapani</media:credit>
+            <media:credit role="producer">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="director">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="editor">Victor Bognot</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>TWiG 232: Just Lean Forward</title>
+         <pubDate>Wed, 15 Jan 2014 17:18:19 -0800</pubDate>
+         <comments>http://twit.tv/twig/232</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Google</category>
+         <category>YouTube</category>
+         <category>Android</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/twig144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="This Week in Google" alt="This Week in Google"/></p><p><strong>Hosts:</strong><a href="http://leoville.com/">Leo Laporte</a>,<a href="http://twitter.com/jeffjarvis">Jeff Jarvis</a> and <a href="http://smarterware.org/">Gina Trapani</a></p>
+ 
+<p><strong>Guest:</strong><a href="http://gigaom.com">Mathew Ingram</a></p>
+ 
+<p>Net neutrality, Google's Nest acquisition, the Moto G Play Edition and more!</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/twig">twit.tv/twig</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/This_WEEK_in_GOOGLE_232">show notes</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><b>Running time:</b> 1:25:17</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0232/twig0232.mp3</guid>
+         <itunes:subtitle>Net neutrality, Google's Nest acquisition, the Moto G Play Edition and more!</itunes:subtitle>
+         <itunes:summary>Hosts:Leo Laporte,Jeff Jarvis and Gina Trapani
+ 
+Guest:Mathew Ingram
+ 
+Net neutrality, Google's Nest acquisition, the Moto G Play Edition and more!
+ 
+Download or subscribe to this show at twit.tv/twig.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 1:25:17
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:25:17</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0232/twig0232.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0232/twig0232.mp3" length="41182627" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0232/twig0232.mp3" fileSize="41182627" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:credit role="actor">Jeff Jarvis</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="actor">Gina Trapani</media:credit>
+            <media:credit role="producer">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="director">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="editor">Bryan Burnett</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>TWiG 231: My Tonka Book</title>
+         <pubDate>Wed, 8 Jan 2014 18:48:52 -0800</pubDate>
+         <comments>http://twit.tv/twig/231</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Google</category>
+         <category>YouTube</category>
+         <category>Android</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/twig144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="This Week in Google" alt="This Week in Google"/></p><p><strong>Hosts:</strong><a href="http://leoville.com/">Leo Laporte</a>,<a href="http://twitter.com/jeffjarvis">Jeff Jarvis</a> and <a href="http://smarterware.org/">Gina Trapani</a></p>
+ 
+<p>More reasons to fear the NSA, Android and Windows in the same computer, SEO problems for Rap Genius, and more!</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/twig">twit.tv/twig</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/This_WEEK_in_GOOGLE_231">show notes</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><b>Running time:</b> 1:40:03</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0231/twig0231.mp3</guid>
+         <itunes:subtitle>More reasons to fear the NSA, Android and Windows in the same computer, SEO problems for Rap Genius, and more!</itunes:subtitle>
+         <itunes:summary>Hosts:Leo Laporte,Jeff Jarvis and Gina Trapani
+ 
+More reasons to fear the NSA, Android and Windows in the same computer, SEO problems for Rap Genius, and more!
+ 
+Download or subscribe to this show at twit.tv/twig.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 1:40:03
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:40:03</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0231/twig0231.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0231/twig0231.mp3" length="48269961" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0231/twig0231.mp3" fileSize="48269961" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:credit role="actor">Jeff Jarvis</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="actor">Gina Trapani</media:credit>
+            <media:credit role="producer">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="director">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="editor">Bryan Burnett</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>TWiG 230: 2013 Best of!</title>
+         <pubDate>Wed, 25 Dec 2013 10:35:13 -0800</pubDate>
+         <comments>http://twit.tv/twig/230</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Google</category>
+         <category>YouTube</category>
+         <category>Android</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/twig144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="This Week in Google" alt="This Week in Google"/></p><p><strong>Hosts:</strong><a href="http://leoville.com/">Leo Laporte</a> and <a href="http://twitter.com/jeffjarvis">Jeff Jarvis</a></p>
+ 
+<p>The best of This Week in Google 2013!</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/twig">twit.tv/twig</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/This_WEEK_in_GOOGLE_230">show notes</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><b>Running time:</b> 1:57:00</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0230/twig0230.mp3</guid>
+         <itunes:subtitle>The best of This Week in Google 2013!</itunes:subtitle>
+         <itunes:summary>Hosts:Leo Laporte and Jeff Jarvis
+ 
+The best of This Week in Google 2013!
+ 
+Download or subscribe to this show at twit.tv/twig.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 1:57:00
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:57:00</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0230/twig0230.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0230/twig0230.mp3" length="56400103" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0230/twig0230.mp3" fileSize="56400103" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:credit role="actor">Jeff Jarvis</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="actor">Gina Trapani</media:credit>
+            <media:credit role="producer">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="director">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="editor">Bryan Burnett</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>TWiG 229: Jiggery Pokery</title>
+         <pubDate>Wed, 18 Dec 2013 20:59:33 -0800</pubDate>
+         <comments>http://twit.tv/twig/229</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Google</category>
+         <category>YouTube</category>
+         <category>Android</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/twig144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="This Week in Google" alt="This Week in Google"/></p><p><strong>Hosts:</strong><a href="http://leoville.com/">Leo Laporte</a> and <a href="http://twitter.com/jeffjarvis">Jeff Jarvis</a></p>
+ 
+<p>Bing architect leaves Microsoft for Google, Google buys military robots, NSA report and more.</p>
+ 
+<p><strong>Guest:</strong><a href="https://twitter.com/kevinmarks">Kevin Marks</a> <a href="https://plus.google.com/+MikeElgan/posts">Mike Elgan</a></p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/twig">twit.tv/twig</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/This_WEEK_in_GOOGLE_229">show notes</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><b>Running time:</b> 1:45:42</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0229/twig0229.mp3</guid>
+         <itunes:subtitle>Bing architect leaves Microsoft for Google, Google buys military robots, NSA report and more.</itunes:subtitle>
+         <itunes:summary>Hosts:Leo Laporte and Jeff Jarvis
+ 
+Bing architect leaves Microsoft for Google, Google buys military robots, NSA report and more.
+ 
+Guest:Kevin Marks Mike Elgan
+ 
+Download or subscribe to this show at twit.tv/twig.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 1:45:42
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:45:42</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0229/twig0229.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0229/twig0229.mp3" length="50981889" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0229/twig0229.mp3" fileSize="50981889" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:credit role="actor">Jeff Jarvis</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="producer">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="director">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="editor">Bryan Burnett</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>TWiG 228: Are you a Robot?</title>
+         <pubDate>Wed, 11 Dec 2013 20:40:00 -0800</pubDate>
+         <comments>http://twit.tv/twig/228</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Google</category>
+         <category>YouTube</category>
+         <category>Android</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/twig144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="This Week in Google" alt="This Week in Google"/></p><p><strong>Hosts:</strong><a href="http://leoville.com/">Leo Laporte</a> and <a href="http://twitter.com/jeffjarvis">Jeff Jarvis</a></p>
+ 
+<p>Google bus blockade, NSA piggybacks on Google cookie, Twitter hoaxes, the ethics of new media, and more.</p>
+ 
+<p><strong>Guest:</strong><a href="http://www.twitter.com/mathewi/">Mathew Ingram</a></p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/twig">twit.tv/twig</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/This_WEEK_in_GOOGLE_228">show notes</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><b>Running time:</b> 2:05:52</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0228/twig0228.mp3</guid>
+         <itunes:subtitle>Google bus blockade, NSA piggybacks on Google cookie, Twitter hoaxes, the ethics of new media, and more.</itunes:subtitle>
+         <itunes:summary>Hosts:Leo Laporte and Jeff Jarvis
+ 
+Google bus blockade, NSA piggybacks on Google cookie, Twitter hoaxes, the ethics of new media, and more.
+ 
+Guest:Mathew Ingram
+ 
+Download or subscribe to this show at twit.tv/twig.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 2:05:52
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>2:05:52</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0228/twig0228.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0228/twig0228.mp3" length="60660779" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0228/twig0228.mp3" fileSize="60660779" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:credit role="actor">Jeff Jarvis</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="producer">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="director">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="editor">Bryan Burnett</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>TWiG 227: Turnip Drones</title>
+         <pubDate>Wed, 4 Dec 2013 17:29:09 -0800</pubDate>
+         <comments>http://twit.tv/twig/227</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Google</category>
+         <category>YouTube</category>
+         <category>Android</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/twig144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="This Week in Google" alt="This Week in Google"/></p><p><strong>Hosts:</strong><a href="http://leoville.com/">Leo Laporte</a>, and <a href="http://twitter.com/jeffjarvis">Jeff Jarvis</a>.</p>
+ 
+<p>Moto X cyber Monday mess, Google testing flying drones, growing plants on the moon, Andy Rubin is buying robotic companies, and more.</p>
+ 
+<p><strong>Guest:</strong><a href="http://www.mattcutts.com/blog/">Matt Cutts</a></p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/twig">twit.tv/twig</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/This_WEEK_in_GOOGLE_227">show notes</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><b>Running time:</b> 1:46:50</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0227/twig0227.mp3</guid>
+         <itunes:subtitle>Moto X cyber Monday mess, Google testing flying drones, growing plants on the moon, Andy Rubin is buying robotic companies, and more.</itunes:subtitle>
+         <itunes:summary>Hosts:Leo Laporte, and Jeff Jarvis.
+ 
+Moto X cyber Monday mess, Google testing flying drones, growing plants on the moon, Andy Rubin is buying robotic companies, and more.
+ 
+Guest:Matt Cutts
+ 
+Download or subscribe to this show at twit.tv/twig.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 1:46:50
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:46:50</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0227/twig0227.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0227/twig0227.mp3" length="51526072" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0227/twig0227.mp3" fileSize="51526072" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:credit role="actor">Jeff Jarvis</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="producer">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="director">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="editor">Bryan Burnett</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>TWiG 226: The Hobbit Menu</title>
+         <pubDate>Wed, 27 Nov 2013 18:25:32 -0800</pubDate>
+         <comments>http://twit.tv/twig/226</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Google</category>
+         <category>YouTube</category>
+         <category>Android</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/twig144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="This Week in Google" alt="This Week in Google"/></p><p><strong>Hosts:</strong><a href="http://leoville.com/">Leo Laporte</a> <a href="http://twitter.com/jeffjarvis">Jeff Jarvis</a>, and <a href="http://smarterware.org/">Gina Trapani</a>.</p>
+ 
+<p>NSA spying on you, blackmailing foreign agents, Chromebook Scroogled, and more.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/twig">twit.tv/twig</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/This_WEEK_in_GOOGLE_226">show notes</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><b>Running time:</b> 2:14:21</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0226/twig0226.mp3</guid>
+         <itunes:subtitle>NSA spying on you, blackmailing foreign agents, Chromebook Scroogled, and more!</itunes:subtitle>
+         <itunes:summary>Hosts:Leo Laporte Jeff Jarvis, and Gina Trapani.
+ 
+NSA spying on you, blackmailing foreign agents, Chromebook Scroogled, and more.
+ 
+Download or subscribe to this show at twit.tv/twig.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 2:14:21
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>2:14:21</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0226/twig0226.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0226/twig0226.mp3" length="64734418" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0226/twig0226.mp3" fileSize="64734418" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:credit role="actor">Jeff Jarvis</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="actor">Gina Trapani</media:credit>
+            <media:credit role="producer">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="director">Bryan Burnett</media:credit>
+            <media:credit role="editor">Bryan Burnett</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>TWiG 225: Crows are Hawt</title>
+         <pubDate>Wed, 20 Nov 2013 19:26:54 -0800</pubDate>
+         <comments>http://twit.tv/twig/225</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Google</category>
+         <category>YouTube</category>
+         <category>Android</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/twig144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="This Week in Google" alt="This Week in Google"/></p><p><strong>Hosts:</stong><a href="http://leoville.com/">Leo Laporte</a>, and <a href="http://smarterware.org/">Gina Trapani</a>.</p>
+ 
+<p>Google Music available for iOS, Nexus 5 wireless charger, KitKat update for Verizon Moto X, and more.</p>
+ 
+<p><strong>Guest:</stong> <a href="https://twitter.com/kevinmarks">Kevin Marks</a></p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/twig">twit.tv/twig</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/This_WEEK_in_GOOGLE_225">show notes</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><b>Running time:</b>1:53:38</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0225/twig0225.mp3</guid>
+         <itunes:subtitle>Google Music available for iOS, Nexus 5 wireless charger, KitKat update for Verizon Moto X, and more.</itunes:subtitle>
+         <itunes:summary>Hosts:Leo Laporte, and Gina Trapani.
+ 
+Google Music available for iOS, Nexus 5 wireless charger, KitKat update for Verizon Moto X, and more.
+ 
+Guest: Kevin Marks
+ 
+Download or subscribe to this show at twit.tv/twig.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time:1:53:38
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>1:53:38</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0225/twig0225.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0225/twig0225.mp3" length="54790542" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0225/twig0225.mp3" fileSize="54790542" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="actor">Gina Trapani</media:credit>
+            <media:credit role="producer">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="director">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="editor">Bryan Burnett</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+      <item>
+         <title>TWiG 224: OK Jarvis</title>
+         <pubDate>Wed, 13 Nov 2013 17:41:01 -0800</pubDate>
+         <comments>http://twit.tv/twig/224</comments>
+         <itunes:author>TWiT</itunes:author>
+         <author>leo@twit.tv (Leo Laporte)</author>
+         <category>Technology</category>
+         <category>Google</category>
+         <category>YouTube</category>
+         <category>Android</category>
+         <description><![CDATA[<p><img src="http://feeds.twit.tv/podcasts/coverart/twig144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="This Week in Google" alt="This Week in Google"/></p><p><strong>Hosts:</stong><a href="http://leoville.com">Leo Laporte</a>, <a href="https://twitter.com/jeffjarvis">Jeff Jarvis</a>, and <a href="http://smarterware.org">Gina Trapani</a>.</p>
+ 
+<p>Cyanogen Mod comes to the Play Store, Google barge revealed, how much money does twitter owe you, Glass open for all, and more. </p>
+ 
+<p><strong>Guest:</stong><a href="https://plus.google.com/+AaronNewcomb/posts">Aaron Newcomb</a></p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/twig">twit.tv/twig</a>.</p>
+ 
+<p>We invite you to read, add to, and amend our <a href="http://wiki.twit.tv/wiki/This_WEEK_in_GOOGLE_224">show notes</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><b>Running time:</b>2:07:54</p>
+ 
+<p>Please take the TWiT Audience Survey at <a href="http://twit.tv/showsurvey">http://twit.tv/showsurvey</a>. It only takes a few minutes and we'd love to know what you think.</p>]]></description>
+         <guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0224/twig0224.mp3</guid>
+         <itunes:subtitle>Cyanogen Mod comes to the Play Store, Google barge revealed, how much money does twitter owe you, Glass open for all, and more.</itunes:subtitle>
+         <itunes:summary>Hosts:Leo Laporte, Jeff Jarvis, and Gina Trapani.
+ 
+Cyanogen Mod comes to the Play Store, Google barge revealed, how much money does twitter owe you, Glass open for all, and more. 
+ 
+Guest:Aaron Newcomb
+ 
+Download or subscribe to this show at twit.tv/twig.
+ 
+We invite you to read, add to, and amend our show notes.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time:2:07:54
+ 
+Please take the TWiT Audience Survey at http://twit.tv/showsurvey. It only takes a few minutes and we'd love to know what you think.</itunes:summary>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:duration>2:07:54</itunes:duration>
+         <link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0224/twig0224.mp3</link>
+         <enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0224/twig0224.mp3" length="61638594" type="audio/mpeg" />
+         <media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/twig/twig0224/twig0224.mp3" fileSize="61638594" type="audio/mpeg" medium="audio">
+            <media:category scheme="tivogenres">News</media:category>
+            <media:category scheme="tivogenres">Computers</media:category>
+            <media:credit role="actor">Jeff Jarvis</media:credit>
+            <media:credit role="actor">Leo Laporte</media:credit>
+            <media:credit role="actor">Gina Trapani</media:credit>
+            <media:credit role="producer">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="director">Chad (OMGchad) Johnson</media:credit>
+            <media:credit role="editor">Bryan Burnett</media:credit>
+            <media:rating scheme="urn:simple">nonadult</media:rating>
+            <media:rating scheme="urn:icra">r (cz 1 lz 1 nz 1 vz 1 oz 1)</media:rating>
+            <media:rating scheme="urn:v-chip">tv-g</media:rating>
+         </media:content>
+      </item>
+   </channel>
+</rss>

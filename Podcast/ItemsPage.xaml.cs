@@ -48,6 +48,8 @@ namespace Podcast
 
         public ItemsPage()
         {
+            DataPoller.refresh();
+
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
